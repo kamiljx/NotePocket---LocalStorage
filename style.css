@@ -23,16 +23,16 @@ body{
     text-align: center;
 
 }
-#titles{
-    width: 20vw;
+#notes{
+    width:100%;
     height: 100%;
-    float: left;
-    text-align: right;
+    align-items: center;
+    text-align: center;
     font-size: 25px;
     position: relative;
-    background-color: #fff;
+    background-color: violet;
 }
-#noteDate {
+/* #noteDate {
     width: 10vw;
     height: 100%;
     float: right;
@@ -40,4 +40,4 @@ body{
     text-align: left;
     background-color: violet;
     position: relative;
-}
+} */
