@@ -33,11 +33,6 @@ function showForm(){
         popup.style.display = 'none'
     }
 }
-
-
-
-
-
 function showNotes(){                           // funkcja odświeżanai notatek na stronie
 let notesDiv = document.getElementById("notesDiv"); // połączenie do diva z notatkami
 for(i=1;i<notesDiv.childElementCount;i++){       // czyszczenie diva z notatkami
@@ -95,6 +90,7 @@ notes.forEach(element => {                          // stworz element dla kazdej
         parentDiv=e.target.parentNode.parentNode;
         noteSave.hidden=true;
         noteEdit.hidden=false;
+        alert("You changed note, please refresh page")
         notes[note.id].title=parentDiv.childNodes[0].value;     // zamiana danych
         notes[note.id].description=parentDiv.childNodes[1].value;
         if(e.target.parentNode.childNodes[3].checked==true){

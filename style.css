@@ -1,135 +1,140 @@
 body{
-    margin: 0;
+  margin: 0;
 }
 #navbar{
-    width: 100%;
-    height: 5vw;
-    background-color: red;
+  width: 100%;
+  height: 5vw;
+  text-align: center;
+  background-color: red;
 }
 #container{
-    width: 100%;
-    height: 100%;
-    background-color: brown;
-    position: absolute;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: brown;
+  position: absolute;
+  align-items: center;
 }
 #mainStream{
-    width: 100%;
-    height: 5vw;
-    position: relative;
-    background-color: blueviolet;
-    align-items: center;
-    
+  width: 100%;
+  height: 5vw;
+  position: relative;
+  background-color: blueviolet;
+  align-items: center;
+  
 }
 #mainStream h1{
-    text-align: center;
-
+  text-align: center;
+  
 }
 #notes{
-    width:100%;
-    height: 100%;
-    align-items: center;
-    text-align: center;
-    font-size: 25px;
-    position: relative;
-    background-color: violet;
+  width:100%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  background-color: violet;
 }
 /* #noteDate {
-    width: 10vw;
-    height: 100%;
-    float: right;
-    font-size: 25px;
-    text-align: left;
-    background-color: violet;
-    position: relative;
+  width: 10vw;
+  height: 100%;
+  float: right;
+  font-size: 25px;
+  text-align: left;
+  background-color: violet;
+  position: relative;
 } */
 
-  textarea {
-    resize: none;
-    
-  }
-  .firstNote {
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    order: 0;
-    width: 20vw;
-    font-size: 18px !important;
-    align-items: center;
-  }
-  .firstNote .noteDesc{
-    margin-top: 10px;
-  }
-  .firstNote .noteTitle{
-    height: 30px;
-  }
-  .firstNote footer{
-    padding-top: 10px;
-    text-align: right;
-  }
-  .note {
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    /* order: 0; */
-  }
-  .noteTitle{
-    text-align: center;
-  }
-  .noteDesc{
-    height: 150px;
+textarea {
+  resize: none;
   
-  }
-  .noteTitle, .noteDesc{
-    width: 100%;
-    background-color: #444;
-    color: #fff;
-  }
-  .noteFooter button, .noteFooter input{
-    float: right;
-  }
-  #notesDiv {
+}
+.firstNote {
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  order: 0;
+  width: 20vw;
+  font-size: 18px !important;
+  align-items: center;
+}
+.firstNote .noteDesc{
+  margin-top: 10px;
+}
+.firstNote .noteTitle{
+  height: 30px;
+}
+.firstNote footer{
+  padding-top: 10px;
+  text-align: right;
+}
+.note {
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  order: 2;
+}
+.noteTitle{
+  text-align: center;
+}
+.noteDesc{
+  height: 150px;
   
-    width: 100%;
-    display: grid;
-    grid-template-columns:repeat(auto-fill, 400px);
-    grid-auto-flow: row;
-    grid-gap: 10px;
-    justify-content: center;
-  }
-  #popup{
-    display: grid;
-    grid-template-columns:repeat(auto-fill, 400px);
-    grid-auto-flow: row;
-    grid-gap: 10px;
-    width: 20vw;
-    margin-left: 38%;
-    justify-content: center;
-  }
-  .holder{
-    display: inline-block;
-  }
-  .color{
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-  }
-  .red{
-    background: red;
-  }
-  .black{
-    background: hsl(0, 1%, 18%);
-  }
-  .yellow{
-    background: #dbdb58;
-  }
-  .blue{
-    background: #225fd9;
-  }
-  .green{
-    background: rgb(42, 135, 50);
-  }
- /* .starter{
-     background-image: url("./img/fitstImage.jpg");
-     background-size: cover;        
- } */
+}
+.noteTitle, .noteDesc{
+  width: 100%;
+  background-color: #444;
+  color: #fff;
+}
+.noteFooter button, .noteFooter input{
+  float: right;
+}
+#notesDiv {
+  
+  width: 100%;
+  display: grid;
+  grid-template-columns:repeat(auto-fill, 400px);
+  grid-auto-flow: row;
+  grid-gap: 10px;
+  justify-content: center;
+}
+#popup{
+  display: grid;
+  grid-template-columns:repeat(auto-fill, 400px);
+  grid-auto-flow: row;
+  grid-gap: 10px;
+  width: 20vw;
+  margin-left: 38%;
+  justify-content: center;
+}
+.holder{
+  display: inline-block;
+}
+.color{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+.red{
+  background: red;
+}
+.black{
+  background: hsl(0, 1%, 18%);
+}
+.yellow{
+  background: #dbdb58;
+}
+.blue{
+  background: #225fd9;
+}
+.green{
+  background: rgb(42, 135, 50);
+}
+/* .starter{
+  background-image: url("./img/fitstImage.jpg");
+  background-size: cover;        
+} */
+#navbar p1{
+  font-size: 39px;
+  color: yellow;
+    }
