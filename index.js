@@ -26,7 +26,7 @@ function showForm(){
     let popup = document.getElementById('popup')
     
     if (popup.style.display === "none"){
-        mainStream.style.height = "25vw"
+        mainStream.style.height = "21vw"
         popup.style.display = 'block'
     }else {
         mainStream.style.height = "5vw"
