@@ -1,2 +1,2 @@
-# Notepad
-Smart NotePad, localStorage
+# NotePocket
+Smart notepocket, localStorage
